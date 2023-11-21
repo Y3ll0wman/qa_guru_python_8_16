@@ -29,6 +29,7 @@ def is_desktop_browser(request):
     else:
         return False
 
+
 @pytest.fixture(params=[(3840, 2160), (1920, 1080), (1024, 768), (800, 600)])
 def is_mobile_browser(request):
     resolution = request.param
