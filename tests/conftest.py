@@ -1,7 +1,6 @@
 import pytest
 
-from selene.support.shared import browser, config
-from selenium import webdriver
+from selene.support.shared import browser
 
 
 @pytest.fixture(params=[(3840, 2160), (1920, 1080)])
